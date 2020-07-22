@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		761F12DE24C8FE9400850761 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12DD24C8FE9400850761 /* main.cpp */; };
+		761F12E624C9019600850761 /* tensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12E524C9019600850761 /* tensor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		761F12DA24C8FE9400850761 /* autograd_implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autograd_implementation; sourceTree = BUILT_PRODUCTS_DIR; };
+		761F12DA24C8FE9400850761 /* autograd_implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = autograd_implementation; path = "/Users/nvijayakumar/OneDrive/Workspace/Projects/Autograd C++/autograd_implementation/build/Debug/autograd_implementation"; sourceTree = "<absolute>"; };
 		761F12DD24C8FE9400850761 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		761F12E424C8FF6B00850761 /* tensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tensor.h; sourceTree = "<group>"; };
+		761F12E524C9019600850761 /* tensor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tensor.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,22 +45,15 @@
 			isa = PBXGroup;
 			children = (
 				761F12DC24C8FE9400850761 /* autograd_implementation */,
-				761F12DB24C8FE9400850761 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		761F12DB24C8FE9400850761 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				761F12DA24C8FE9400850761 /* autograd_implementation */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		761F12DC24C8FE9400850761 /* autograd_implementation */ = {
 			isa = PBXGroup;
 			children = (
 				761F12DD24C8FE9400850761 /* main.cpp */,
+				761F12E524C9019600850761 /* tensor.cpp */,
+				761F12E424C8FF6B00850761 /* tensor.h */,
 			);
 			path = autograd_implementation;
 			sourceTree = "<group>";
@@ -105,7 +101,7 @@
 				Base,
 			);
 			mainGroup = 761F12D124C8FE9400850761;
-			productRefGroup = 761F12DB24C8FE9400850761 /* Products */;
+			productRefGroup = 761F12D124C8FE9400850761;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,6 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761F12E624C9019600850761 /* tensor.cpp in Sources */,
 				761F12DE24C8FE9400850761 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
