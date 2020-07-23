@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		761F12DA24C8FE9400850761 /* autograd_implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = autograd_implementation; path = "/Users/nvijayakumar/OneDrive/Workspace/Projects/Autograd C++/autograd_implementation/build/Debug/autograd_implementation"; sourceTree = "<absolute>"; };
 		761F12DD24C8FE9400850761 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		761F12E424C8FF6B00850761 /* tensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tensor.h; sourceTree = "<group>"; };
 		761F12E524C9019600850761 /* tensor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tensor.cpp; sourceTree = "<group>"; };
+		769C610124C9081100A7E104 /* autograd_implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autograd_implementation; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +44,19 @@
 		761F12D124C8FE9400850761 = {
 			isa = PBXGroup;
 			children = (
-				761F12DC24C8FE9400850761 /* autograd_implementation */,
+				769C610324C9095700A7E104 /* tensors */,
+				769C610124C9081100A7E104 /* autograd_implementation */,
 			);
 			sourceTree = "<group>";
 		};
-		761F12DC24C8FE9400850761 /* autograd_implementation */ = {
+		769C610324C9095700A7E104 /* tensors */ = {
 			isa = PBXGroup;
 			children = (
 				761F12DD24C8FE9400850761 /* main.cpp */,
 				761F12E524C9019600850761 /* tensor.cpp */,
 				761F12E424C8FF6B00850761 /* tensor.h */,
 			);
-			path = autograd_implementation;
+			path = tensors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,7 +76,7 @@
 			);
 			name = autograd_implementation;
 			productName = autograd_implementation;
-			productReference = 761F12DA24C8FE9400850761 /* autograd_implementation */;
+			productReference = 769C610124C9081100A7E104 /* autograd_implementation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
