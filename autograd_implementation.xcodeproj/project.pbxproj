@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		761F12DE24C8FE9400850761 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12DD24C8FE9400850761 /* main.cpp */; };
-		761F12E624C9019600850761 /* tensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12E524C9019600850761 /* tensor.cpp */; };
+		76EBF35F24C9208A00618AC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12DD24C8FE9400850761 /* main.cpp */; };
+		76EBF36024C9208E00618AC2 /* tensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761F12E524C9019600850761 /* tensor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		761F12D824C8FE9400850761 /* CopyFiles */ = {
+		76EBF35624C9207800618AC2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,11 +27,11 @@
 		761F12DD24C8FE9400850761 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		761F12E424C8FF6B00850761 /* tensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tensor.h; sourceTree = "<group>"; };
 		761F12E524C9019600850761 /* tensor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tensor.cpp; sourceTree = "<group>"; };
-		769C610124C9081100A7E104 /* autograd_implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autograd_implementation; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EBF35824C9207800618AC2 /* output */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = output; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		761F12D724C8FE9400850761 /* Frameworks */ = {
+		76EBF35524C9207800618AC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,39 +44,31 @@
 		761F12D124C8FE9400850761 = {
 			isa = PBXGroup;
 			children = (
-				769C610324C9095700A7E104 /* tensors */,
-				769C610124C9081100A7E104 /* autograd_implementation */,
-			);
-			sourceTree = "<group>";
-		};
-		769C610324C9095700A7E104 /* tensors */ = {
-			isa = PBXGroup;
-			children = (
 				761F12DD24C8FE9400850761 /* main.cpp */,
 				761F12E524C9019600850761 /* tensor.cpp */,
 				761F12E424C8FF6B00850761 /* tensor.h */,
+				76EBF35824C9207800618AC2 /* output */,
 			);
-			path = tensors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		761F12D924C8FE9400850761 /* autograd_implementation */ = {
+		76EBF35724C9207800618AC2 /* output */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 761F12E124C8FE9400850761 /* Build configuration list for PBXNativeTarget "autograd_implementation" */;
+			buildConfigurationList = 76EBF35C24C9207800618AC2 /* Build configuration list for PBXNativeTarget "output" */;
 			buildPhases = (
-				761F12D624C8FE9400850761 /* Sources */,
-				761F12D724C8FE9400850761 /* Frameworks */,
-				761F12D824C8FE9400850761 /* CopyFiles */,
+				76EBF35424C9207800618AC2 /* Sources */,
+				76EBF35524C9207800618AC2 /* Frameworks */,
+				76EBF35624C9207800618AC2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = autograd_implementation;
-			productName = autograd_implementation;
-			productReference = 769C610124C9081100A7E104 /* autograd_implementation */;
+			name = output;
+			productName = output;
+			productReference = 76EBF35824C9207800618AC2 /* output */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -88,7 +80,7 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Nithin Vijayakumar";
 				TargetAttributes = {
-					761F12D924C8FE9400850761 = {
+					76EBF35724C9207800618AC2 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -106,18 +98,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				761F12D924C8FE9400850761 /* autograd_implementation */,
+				76EBF35724C9207800618AC2 /* output */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		761F12D624C8FE9400850761 /* Sources */ = {
+		76EBF35424C9207800618AC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761F12E624C9019600850761 /* tensor.cpp in Sources */,
-				761F12DE24C8FE9400850761 /* main.cpp in Sources */,
+				76EBF36024C9208E00618AC2 /* tensor.cpp in Sources */,
+				76EBF35F24C9208A00618AC2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +225,7 @@
 			};
 			name = Release;
 		};
-		761F12E224C8FE9400850761 /* Debug */ = {
+		76EBF35D24C9207800618AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -241,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		761F12E324C8FE9400850761 /* Release */ = {
+		76EBF35E24C9207800618AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,11 +253,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		761F12E124C8FE9400850761 /* Build configuration list for PBXNativeTarget "autograd_implementation" */ = {
+		76EBF35C24C9207800618AC2 /* Build configuration list for PBXNativeTarget "output" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				761F12E224C8FE9400850761 /* Debug */,
-				761F12E324C8FE9400850761 /* Release */,
+				76EBF35D24C9207800618AC2 /* Debug */,
+				76EBF35E24C9207800618AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

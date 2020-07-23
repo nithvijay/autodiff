@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>autograd_implementation.xcscheme_^#shared#^_</key>
+		<key>output.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +13,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>761F12D924C8FE9400850761</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76EBF34C24C9123D00618AC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76EBF35724C9207800618AC2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -13,7 +13,6 @@ public:
     Tensor(int a);
     
     static int sum(Tensor *t1, Tensor *t2);
-    
 private:
     int value;
 };
