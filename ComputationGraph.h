@@ -1,6 +1,6 @@
 #ifndef ComputationGraph_h
 #define ComputationGraph_h
-#include "node.h"
+#include "Node.h"
 
 class CG {
     

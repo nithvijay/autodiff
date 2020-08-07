@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "node.h"
+#include "Node.h"
 #include <iostream>
 
 using namespace std;
