@@ -2,17 +2,19 @@
 #define ComputationGraph_h
 #include "Node.h"
 
-class CG {
+class ComputationGraph {
     
 public:
-    CG();
+    ComputationGraph();
     Node* getRoot();
     Node* add(Node* node1, Node* node2);
     Node* subtract(Node* node1, Node* node2);
     Node* multiply(Node* node1, Node* node2);
     Node* divide(Node* node1, Node* node2);
     Node* power(Node* node1, Node* node2);
+    Node* Linear(Node* w, Node* b, Node* x);
+    Node* MSE(Node* pred, Node* y);
 };
 
 
-#endif /* ComputationGraph_h */
+#endif
